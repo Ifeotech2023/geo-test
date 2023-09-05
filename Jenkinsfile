@@ -11,7 +11,7 @@
     }
     stage('maven install'){
         steps{
-        sh  ' maven install'
+        sh   'maven install'
         }
     }
     stage('maven package'){
